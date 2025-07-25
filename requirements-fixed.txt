@@ -1,0 +1,51 @@
+# Django and Web Framework Dependencies
+django==4.2.6
+djangorestframework==3.14.0
+django-cors-headers==4.3.1  # Fixed: was corsheaders==3.13.0
+
+# AI and Machine Learning Libraries
+tensorflow==2.19.0  # Updated: was 2.15.0 (no longer available)
+torch==2.7.1  # Updated: was 2.1.0 (no longer available) 
+torchvision==0.19.1
+torchaudio==2.5.1
+
+# Computer Vision
+opencv-python==4.12.0.88  # Updated: was 4.8.0 (no longer available)
+
+# Scientific Computing
+numpy==1.26.0
+pandas==2.3.1
+scipy==1.16.0
+matplotlib==3.8.0
+scikit-learn==1.5.0
+
+# Quantum Computing Libraries
+qiskit==0.45.0
+pennylane==0.34.0
+cirq==1.3.0
+
+# Geospatial and Data Processing
+rasterio==1.3.9
+geopandas==0.14.0
+shapely==2.0.0
+
+# Web and API Tools
+requests==2.32.4
+celery==5.3.0
+redis==5.0.0
+
+# Development and Utilities
+python-decouple==3.8
+whitenoise==6.6.0
+gunicorn==21.2.0
+psycopg2-binary==2.9.9
+
+# Async and WebSocket Support
+channels==4.0.0
+channels-redis==4.2.0
+daphne==4.0.0
+
+# Additional Utilities
+pillow==10.4.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
